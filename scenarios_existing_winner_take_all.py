@@ -36,6 +36,6 @@ for state in ALL_STATES:
         total_trump_proportional += state.percentage_based_electoral_votes * float(trump_cds_won)/len(state.congressional_district_votes)
         total_trump_proportional_rounded += int(round(state.percentage_based_electoral_votes_rounded * float(trump_cds_won)/len(state.congressional_district_votes)))
 
-print( 'Electoral College: Clinton {}, Trump {}'.format(total_clinton_ec, total_trump_ec))
+print('Electoral College: Clinton {}, Trump {}'.format(total_clinton_ec, total_trump_ec))
 print('Proportional EC, fractional: Clinton {}, Trump {}'.format(total_clinton_proportional, total_trump_proportional))
 print('Proportional EC, rounded: Clinton {}, Trump {}'.format(total_clinton_proportional_rounded, total_trump_proportional_rounded))
