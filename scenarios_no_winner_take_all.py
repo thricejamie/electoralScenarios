@@ -46,15 +46,15 @@ for state in ALL_STATES:
     total_proportional_ec_mcmullin += int(round(pct_mcmullin * state.percentage_based_electoral_votes_rounded))
     total_proportional_ec_other += int(round(pct_other * state.percentage_based_electoral_votes_rounded))
 
-print 'Electoral votes: Clinton {}, Trump {}, Johnson {}, Stein {}, McMullin {}, Other {}'.format(total_ec_clinton,
+print('Electoral votes: Clinton {}, Trump {}, Johnson {}, Stein {}, McMullin {}, Other {}'.format(total_ec_clinton,
                                                                                                   total_ec_trump,
                                                                                                   total_ec_johnson,
                                                                                                   total_ec_stein,
                                                                                                   total_ec_mcmullin,
-                                                                                                  total_ec_other)
-print 'Proportional EC votes: Clinton {}, Trump {}, Johnson {}, Stein {}, McMullin {}, Other {}'.format(total_proportional_ec_clinton,
+                                                                                                  total_ec_other))
+print('Proportional EC votes: Clinton {}, Trump {}, Johnson {}, Stein {}, McMullin {}, Other {}'.format(total_proportional_ec_clinton,
                                                                                                   total_proportional_ec_trump,
                                                                                                   total_proportional_ec_johnson,
                                                                                                   total_proportional_ec_stein,
                                                                                                   total_proportional_ec_mcmullin,
-                                                                                                  total_proportional_ec_other)
+                                                                                                  total_proportional_ec_other))
